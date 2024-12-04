@@ -7,7 +7,7 @@ O intuito é aplicar o conhecimento compartilhado até essa etapa do curso.
 A ferramenta a ser utilizada será: **MySQL Workbench**.  
 OBS: O ponto de partida será o meu modelo conceitual, gerado no Desafio 01.  
 [Desafio 1 - Projeto Conceitual de Banco de Dados](aREADME_Desafio_Suzano_01_eCommerce_Projeto_Conceitual.md)  
-    ![alt text](.\imagens\img_DesafioAceito.png)
+    ![alt text](./imagens/img_DesafioAceito.png)
 
     
 ## 🤓Apresentação do Desafio:
@@ -52,7 +52,7 @@ Maiores detalhes podem ser consultados no mesmo item da Solução do Desafio 1:
 
 ## 🤓Desafio Feito😎! Minha resolução🎉🎉🎉:
 > ## 📋**Modelo Lógico**:  
-> ![Desafio_03 - Modelo Lógico](.\imagens\img_Desafio_Suzano_01_eCommerce_Projeto_Conceitual.png)
+> ![Desafio_03 - Modelo Lógico](./imagens/img_Desafio_Suzano_01_eCommerce_Projeto_Conceitual.png)
 
 - Garantiremos a regra de informe apenas do CPF ou CNPJ do cliente com uma Check Constraint nesta tabela.
 
@@ -62,7 +62,7 @@ Maiores detalhes podem ser consultados no mesmo item da Solução do Desafio 1:
 
 - O código de rastreio da entrega será um campo no pedido.
 
-> ## 📋**Modelo Físico** (Link ⇒ [Script_Geracao_Tabelas_BD_eCommerce.sql](.\scripts\Script_MySQL_Schema_ECommerce_FromDiagram.sql)):  
+> ## 📋**Modelo Físico** (Link ⇒ [Script_Geracao_Tabelas_BD_eCommerce.sql](./scripts/Script_MySQL_Schema_ECommerce_FromDiagram.sql)):  
 
 
 > ## 📋**Persistindo os dados para testes: **:  
