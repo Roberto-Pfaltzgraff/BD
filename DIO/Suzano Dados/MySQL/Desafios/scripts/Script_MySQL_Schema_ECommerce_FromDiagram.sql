@@ -93,7 +93,7 @@ ENGINE = InnoDB;
 -- Table `ECommerce`.`Pedido`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `ECommerce`.`Pedido` (
-  `idPedido` INT NOT NULL,
+  `idPedido` INT NOT NULL AUTO_INCREMENT,
   `dataPedido` DATE NOT NULL,
   `statusPedido` VARCHAR(30) NOT NULL COMMENT 'O status do pedido posicionará toda situação do mesmo até finalização da entrega.',
   `Endereco_Cliente_idEndereco_Cliente` INT NOT NULL,

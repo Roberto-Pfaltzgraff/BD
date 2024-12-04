@@ -5,7 +5,7 @@
 Realizar a **modelagem de dados** do projeto proposto de **Ordem de Serviço** para **Oficina Mecânica**, conforme requisitos informados.  
 O intuito é aplicar o conhecimento compartilhado até essa etapa do curso.  
 Podendo utilizar uma das ferramentas demonstradas na aula: **DB Designer**, **Draw.io** e **MySQL Workbench**.  
-![Imagem do Desafio Aceito: img_DesafioAceito.png](img_DesafioAceito.png)
+![Imagem do Desafio Aceito: img_DesafioAceito.png](.\imagens\img_DesafioAceito.png)
 
     
 ## 🤓Apresentação do Desafio:
@@ -60,7 +60,7 @@ E ela será informada na OS pela Equipe de mecânicos ao fim da avaliação de m
 
 ## 🤓Desafio Feito😎! Minha resolução🎉🎉🎉:
 > 📋**Modelo Lógico**:  
-> ![Desafio_02](img_Desafio_Suzano_02_OrdemServico_OS_Oficina.png)
+> ![Desafio_02](.\imagens\img_Desafio_Suzano_02_OrdemServico_OS_Oficina.png)
 
 - O Item_OS irá relacionar cada Serviço ou Peça associado a OS.  
 Cada registro do Item_OS deverá conter o relacionamento apenas com Serviço ou apenas com Peça,  
@@ -312,4 +312,4 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
 ```
 
-❗👏🎉Fim do Desafio 01
+❗👏🎉Fim do Desafio 02

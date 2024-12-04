@@ -5,7 +5,7 @@
 Realizar a **modelagem de dados** do projeto proposto de **E-Commerce**, conforme requisitos informados.  
 O intuito é aplicar o conhecimento compartilhado até essa etapa do curso.  
 Podendo utilizar uma das ferramentas demonstradas na aula: **DB Designer**, **Draw.io** e **MySQL Workbench**.  
-    ![alt text](img_DesafioAceito.png)
+    ![alt text](.\imagens\img_DesafioAceito.png)
 
     
 ## 🤓Apresentação do Desafio:
@@ -52,7 +52,7 @@ Esses requisitos precisam de refinamentos que consistiriam de algumas sessões d
 
 ## 🤓Desafio Feito😎! Minha resolução🎉🎉🎉:
 > 📋**Modelo Lógico**:  
-> ![Desafio_01](img_Desafio_Suzano_01_eCommerce_Projeto_Conceitual.png)
+> ![Desafio_01](.\imagens\img_Desafio_Suzano_01_eCommerce_Projeto_Conceitual.png)
 
 - Garantiremos a regra de informe apenas do CPF ou CNPJ do cliente com uma Check Constraint nesta tabela.
 
@@ -160,7 +160,7 @@ ENGINE = InnoDB;
 -- Table `ECommerce`.`Pedido`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `ECommerce`.`Pedido` (
-  `idPedido` INT NOT NULL,
+  `idPedido` INT NOT NULL AUTO_INCREMENT,
   `dataPedido` DATE NOT NULL,
   `statusPedido` VARCHAR(30) NOT NULL COMMENT 'O status do pedido posicionará toda situação do mesmo até finalização da entrega.',
   `Endereco_Cliente_idEndereco_Cliente` INT NOT NULL,
