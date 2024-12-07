@@ -280,9 +280,7 @@ CREATE TABLE IF NOT EXISTS `Oficina`.`Item_OS` (
   INDEX `fk_Item_OS_Servico1_idx` (`Servico_idServico` ASC) VISIBLE,
   INDEX `fk_Item_OS_Peca1_idx` (`Peca_idPeca` ASC) VISIBLE,
   PRIMARY KEY (`idItem_OS`),
-  UNIQUE INDEX `OS_idOS_UNIQUE` (`OS_idOS` ASC) VISIBLE,
-  UNIQUE INDEX `Servico_idServico_UNIQUE` (`Servico_idServico` ASC) VISIBLE,
-  UNIQUE INDEX `Peca_idPeca_UNIQUE` (`Peca_idPeca` ASC) VISIBLE,
+  UNIQUE INDEX `UK_idOS_Peca_Serv` (`OS_idOS` ASC, `Servico_idServico` ASC, `Peca_idPeca` ASC) VISIBLE,
   CONSTRAINT `fk_Item_OS_OS1`
     FOREIGN KEY (`OS_idOS`)
     REFERENCES `Oficina`.`OS` (`idOS`)

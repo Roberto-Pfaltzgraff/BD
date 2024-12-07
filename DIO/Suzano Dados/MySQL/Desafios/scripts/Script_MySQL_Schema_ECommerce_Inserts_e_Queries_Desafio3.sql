@@ -1,5 +1,7 @@
 -- Scripts de Inserts e Selects
 -- Correspondentes a entrega realização da atividade.
+-- 1º grupo de comandos inserts => Finalidade de gerar massa de dados de testes.
+-- 2º grupo de comandos selects => Finalidade de efetuar as queries solicitadas no desafio.
 
 -- Acessando o Schema ecommerce
 use ecommerce;

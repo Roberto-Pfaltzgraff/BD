@@ -290,6 +290,6 @@ order by f.nomeFornecedor, p.nomeProduto;
 ```
 
 Script com inserts para persistência dos dados de testes e Queries elaboradas conforme proposta do desafio:  
-[Script_Desafio3_Entrega_Solucao.SQL](./scripts/Script_MySQL_Schema_ECommerce_Inserts_Queries_Desafio3.sql)
+[Script_Desafio3_Entrega_Solucao.SQL](./scripts/Script_MySQL_Schema_ECommerce_Inserts_e_Queries_Desafio3.sql)
 
 ❗👏🎉Fim do Desafio 03
