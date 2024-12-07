@@ -83,7 +83,7 @@ Onde:
 > ## 📋**Modelo Físico** (Link ⇒ [Script_Geracao_Tabelas_BD_Oficina_OS.sql](./scripts/Script_MySQL_Schema_OrdemServicoOficinaOS_FromDiagram.sql)):  
 
 
-> ## 📋**Persistindo os dados para testes: **:  
+> ## 📋**Persistindo os dados para testes**:  
 ```sql
 -- Acessando o Schema oficina
 use oficina;
